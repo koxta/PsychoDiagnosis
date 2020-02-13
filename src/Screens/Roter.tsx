@@ -74,7 +74,8 @@ function RenderQuestion({index,setAnswer}:any){
       flexDirection: "column",
       marginLeft:30,
       marginRight:30,
-      borderRadius:20
+      borderRadius:20,
+      maxWidth:'1000px'
     }}>
       <p>{index}</p>
       <div style={{
@@ -124,7 +125,9 @@ function RenderQuestions({ questions }: any) {
     <div style={{
       display: 'flex',
       flexBasis: '50%',
-      flexDirection: 'column'
+      flexDirection: 'column',
+      alignContent:'center',
+      alignItems:'center'
     }}>
       <RenderQuestion index={question} setAnswer={setAnswer}/>
     </div>
