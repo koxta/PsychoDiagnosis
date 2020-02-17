@@ -1,12 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { Home } from "./Home";
-import Roter from "./Screens/Roter";
-
-// setup
-// create routes
-// change routes
-// route params
+import {Roter} from "./Screens";
 
 const App: React.FC = () => {
   return (

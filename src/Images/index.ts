@@ -1,0 +1,1 @@
+export {default as RoterImage} from  './roter.jpg'
