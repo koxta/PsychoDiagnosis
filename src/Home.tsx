@@ -7,8 +7,9 @@ export const Home: React.FC<Props> = ({ history, location, match }) => {
   console.log(match, location);
   return (
     <div>
-      <div>home</div>
+      <div>Home</div>
       <Link to="/Roter">Roter</Link>
+      <Link to="/Cattell">Cattel</Link>
     </div>
   );
 };
